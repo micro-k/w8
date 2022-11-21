@@ -20,7 +20,7 @@ function showClock2() {
    var nowHour = set2fig( h );
    var nowMin  = set2fig( nowTime.getMinutes() );
    var nowSec  = set2fig( nowTime.getSeconds() );
-   var msg = "現在時刻は、" + +nowHour + ":" + nowMin + ":" + nowSec + " です。";
+   var msg = "現在時刻は、" + m +nowHour + ":" + nowMin + ":" + nowSec + " です。";
    document.getElementById("RealtimeClockArea2").innerHTML = msg;
 }
 setInterval('showClock2()',1000);
